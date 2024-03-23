@@ -1,3 +1,4 @@
+// CommonJS export
 function print(log) {
   console.log(log);
 }
@@ -14,4 +15,4 @@ print.info = function (log) {
   console.info("\x1b[36m%s\x1b[0m", log);
 };
 
-export default print;
+module.exports = print;
