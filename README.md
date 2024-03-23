@@ -1,19 +1,17 @@
-# print-log
-
-
+# printl
 
 A simple logging package for Node.js.
 
 ## Installation
 
-You can install `print-log` using npm:
+You can install `printl` using npm:
 
 ```bash
-npm install print-log
-    
+npm install printl
+
 
 ## Usage
-const print = require('print-log');
+const print = require('printl');
 
 print('This is a message');
 print.err('This is an error message');
@@ -36,3 +34,4 @@ message: The message to log.
 ## 🔗 Links
 [![Github](https://github.com/legendfahim/)
 
+```
