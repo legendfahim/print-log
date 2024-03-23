@@ -19,18 +19,19 @@ print.wrn('This is a warning message');
 print.info('This is a regular log message');
 
 ## API
-log.err(message)
-Logs an error message to the console.
-
-message: The error message to log.
-log.wrn(message)
-Logs a warning message to the console.
-
-message: The warning message to log.
-log.log(message)
+print(message)
 Logs a message to the console.
 
-message: The message to log.
+print.err(message)
+Logs an error message to the console.
+
+print.wrn(message)
+Logs a warning message to the console.
+
+print.info(message)
+Logs a info message to the console.
+
+
 ## 🔗 Links
 [![Github](https://github.com/legendfahim/)
 
