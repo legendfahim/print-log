@@ -15,4 +15,10 @@ print.info = function (log) {
   console.info("\x1b[36m%s\x1b[0m", log);
 };
 
-module.exports = print;
+// Export for Node.js
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = print;
+} else {
+  // Export for browser
+  window.print = print;
+}
